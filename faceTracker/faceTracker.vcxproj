@@ -110,8 +110,8 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\opencv\build\x64\vc16\lib;C:\opencv\build\lib\Debug</AdditionalLibraryDirectories>
-      <AdditionalDependencies>opencv_world4110d.lib;opencv_core4110d.lib;opencv_imgproc4110d.lib;opencv_videoio4110d.lib;opencv_objdetect4110d.lib;opencv_tracking4110d.lib;opencv_dnn4110d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\opencv\build\lib\Debug;C:\opencv\build\x64\vc16\lib;C:\opencv\build\bin\Debug</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_core4110d.lib;opencv_imgproc4110d.lib;opencv_videoio4110d.lib;opencv_objdetect4110d.lib;opencv_tracking4110d.lib;opencv_dnn4110d.lib;opencv_face4110d.lib;opencv_highgui4110d.lib;opencv_video4110d.lib;opencv_calib3d4110d.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
